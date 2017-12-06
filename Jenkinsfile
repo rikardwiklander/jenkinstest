@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Run and test .sh-files') {
+    stage('Test') {
       parallel {
         stage('Run and test .sh-files') {
           steps {
