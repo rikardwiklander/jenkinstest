@@ -12,7 +12,7 @@ pipeline {
         }
         stage('Cat test') {
           steps {
-            sh '/cat /tmp/'
+            sh '/cat /tmp/test.txt'
           }
         }
         stage('See if file exists') {
